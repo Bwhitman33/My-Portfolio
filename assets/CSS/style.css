@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #686D76;
+}
+
+header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #373A40;
+    color:aliceblue;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+a {
+    color:aqua
+}
+
+.About-Me h2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+
+.Self-Portait {
+    background-image: url("../images/bootcamppicture.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 25px 775px;
+}
+
+.About-Me p {
+    margin: 25px 0px 25px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    background-color:#556480; 
+    padding: 10px;
+    text-align: center;
+}
+
+.Works h2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+
+
