@@ -64,7 +64,7 @@ h2{
 }
 
 .Self-Portrait {
-    background-image: url("../images/bootcamppicture.jpg");
+    /* background-image: url("../images/bootcamppicture.jpg"); */
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -94,11 +94,18 @@ h2{
 
 .Works-1 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    justify-content: left;
+    align-content: left;   
 }
+
 .Horiseon {
-    background-image: url(../images/HoriseonScreenshot.png);
-    
+    width: 45%;
+}
+
+.Placeholder-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: right;
 }
