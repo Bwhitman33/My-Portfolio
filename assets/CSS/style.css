@@ -64,10 +64,8 @@ h2{
 }
 
 .Self-Portrait {
-    /* background-image: url("../images/bootcamppicture.jpg"); */
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 250px;
     border-radius: 50%;
     margin: 35px;
 }
@@ -91,6 +89,20 @@ h2{
     font-size: 30px;
     background-color: aqua;
 }
+.Code-Refactor {
+    Width: 45%;
+    margin-left: 10px;
+}
+
+.Code-Refactor h3 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
 
 .Works-1 {
     display: flex;
@@ -100,7 +112,7 @@ h2{
 }
 
 .Horiseon {
-    width: 45%;
+    width: 100%;
 }
 
 .Placeholder-1 {
