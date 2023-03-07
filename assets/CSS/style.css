@@ -80,7 +80,7 @@ h2{
 }
 
 .Works h2 {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -90,12 +90,16 @@ h2{
     background-color: aqua;
 }
 .Code-Refactor {
-    Width: 45%;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
+.containerLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
 .Code-Refactor h3 {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -104,20 +108,58 @@ h2{
     font-size: 20px;
 }
 
-.Works-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-content: left;   
-}
-
 .Horiseon {
     width: 100%;
+
 }
 
-.Placeholder-1 {
+.Placeholder-1 h3 {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    align-content: right;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.comingSoon {
+    margin: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.placeTop {
+    width: 57%;
+}
+
+.Placeholder-2 h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contact {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #373A40;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    margin: 10px 10px;
 }
