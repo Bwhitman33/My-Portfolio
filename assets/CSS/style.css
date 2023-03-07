@@ -6,6 +6,7 @@
 
 body {
     background-color: #686D76;
+    border: 5px solid;
 }
 
 header {
@@ -163,3 +164,10 @@ footer {
     justify-content: center; 
     margin: 10px 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+      display: block;
+      text-align: center;
+    }
+  }
