@@ -126,10 +126,15 @@ h2{
 
 .comingSoon {
     margin: 10px;
+    justify-content: right;
+}
+
+.placeTop {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin-left: 150px;
 }
 
 .comingSoontwo {
