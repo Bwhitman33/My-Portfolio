@@ -134,7 +134,7 @@ h2{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 110px;
 }
 
 .comingSoontwo {
@@ -143,6 +143,7 @@ h2{
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    margin-left: 155px;
 }
 
 .placeTop {
@@ -180,6 +181,13 @@ footer {
     align-items: center;
     justify-content: center; 
     margin: 10px 10px;
+}
+
+.a {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 @media only screen and (max-width: 768px) {
