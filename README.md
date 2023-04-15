@@ -5,7 +5,7 @@ Created a portfolio page for my future works. This website contains an "About Me
 <br>
 
 ## Screenshot
-<img src="assets\Images\MyPortfolioScreenshot.png">
+<img src="assets\Images\bwhitman33.github.io_My-Portfolio_.png">
 <br>
 
 ## Github Pages
